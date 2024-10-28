@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portfolio Website</title>
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="all.min.css">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!--==================== STYLE SWITCHER ====================-->
+    <input type="radio" name="color" id="color-1" />
+    <input type="radio" name="color" id="color-2" />
+    <input type="radio" name="color" id="color-3" />
+    <input type="radio" name="color" id="color-4" />
+    <input type="radio" name="color" id="color-5" />
+    <input type="radio" name="color" id="color-6" />
+    <input type="radio" name="color" id="color-7" />
+    <input type="radio" name="color" id="color-8" />
+    <input type="radio" name="color" id="color-9" />
+    <input type="radio" name="color" id="color-10" />
+    <input type="checkbox" id="toggler" />
+    <input type="checkbox" id="day-night" />
+
+    <div class="style__switcher">
+        <label for="toggler" class="style__switcher-toggler">
+            <i class="fa fa-cog fa-spin" aria-hidden="true"> </i>
+        </label>
+
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa fa-sun-o"></i>
+            <i class="fa fa-moon"></i>
+        </label>
+
+        <h3 class="style__switcher-title">Theme colors</h3>
+
+        <div class="style__switcher-colors">
+            <label for="color-1" class="color-1 color"></label>
+            <label for="color-2" class="color-2 color"></label>
+            <label for="color-3" class="color-3 color"></label>
+            <label for="color-4" class="color-4 color"></label>
+            <label for="color-5" class="color-5 color"></label>
+            <label for="color-6" class="color-6 color"></label>
+            <label for="color-7" class="color-7 color"></label>
+            <label for="color-8" class="color-8 color"></label>
+            <label for="color-9" class="color-9 color"></label>
+            <label for="color-10" class="color-10 color"></label>
+        </div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">SAHADEVATECH</a>
+
+            <input type="checkbox" id="nav-toggler">
+
+            <label for="nav-toggler" class="nav__toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">Services</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#works" class="nav__link">Portfolio</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                   
+                    <h1 class="home__title">
+                        <span>We are</span>
+                       
+                       
+                    </h1>
+                
+                    <p class="home__description">
+                         seasoned team of Full Stack Developers, 
+                         we bring a wealth of expertise in both front-end and back-end technologies.
+                          Our skills span Dotnet,Android,Flutter,Node.js,Laravel and Vue.js for crafting robust web 
+                          applications or APP Developemt, and Angular,react for dynamic user interfaces.
+                          we are doing Shopify store management and theme modifying with Liquid.
+                        Proficient in AWS and MySQL, we ensure seamless deployment and optimal database management.
+                    </p>
+                
+                    <p class="home__description">
+                        <strong>Key Strengths:</strong><br />
+                        <ul>
+                            <li><strong>End-to-End Proficiency:</strong> Adept in all aspects of development, from designing engaging user interfaces to building powerful back-end solutions.</li>
+                            <br>
+                            <li><strong>API Mastery:</strong> Specialized in creating and integrating APIs for enhanced functionality.</li>
+                            <br>
+                            <li><strong>Cloud-Ready Solutions:</strong> Utilizing AWS for scalable and reliable deployments.</li>
+                            <br>
+                            <li><strong>Database Excellence:</strong> Well-versed in MS SQL Server (2012, 2014)  SQL Server , PostgreSQL , MySQL ,MongoDB
+                                 and Firebase ensuring high performance and efficient data management.</li>
+                        </ul>
+                    </p>
+                
+                    <p class="home__description">
+                        Our mission is to deliver cutting-edge solutions tailored to your unique needs, whether enhancing your web presence or building applications from the ground up.
+                    </p>
+                </div>
+                
+        
+                <div class="home__img-wrapper">
+                    <img src="./1.jpeg" alt="" class="home__img">
+                </div>
+            </div>
+        </section>
+        
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__img-wrapper">
+                    <img src="1.jpeg" alt="" class="about__img">
+                    <img src="1.jpeg" alt="" class="about__img">
+                    <img src="1.jpeg" alt="" class="about__img">
+                    <img src="1.jpeg" alt="" class="about__img">
+                </div>
+
+                <div class="about__content">
+                    <h2 class="section__title" data-title="Our Mission">
+                        SAHADEVATECH: Your Partner in Technology Solutions
+                    </h2>
+
+                    <p class="about__description">
+                       We pride ourselves on our expertise in developing robust and dependable
+                         systems that power your websites and applications.
+                        we are dedicated to solving complex problems and ensuring
+                         that every detail functions seamlessly behind the scenes.
+                          From database design to secure user authentication, our
+                           goal is to make your online projects a success.
+                            Let's collaborate to transform your ideas into reality!
+</p>
+
+                    <ul class="about__data grid">
+                        <li class="data__item">
+                            <h3 class="data__title">From:</h3>
+                            <span class="data__description">Surat, Gujarat</span>
+                        </li>
+
+                        <li class="data__item">
+                            <h3 class="data__title">Email:</h3>
+                            <a href="mailto:sahdevnc1999@gmail.com?subject=Contact&body=Hi%20Sahdev Chauhan%2C%0A%0AI%20saw%20your%20Portfolio%20and%20I%20want%20to%20contact%20you."
+                                class="contact__data">Sahdevnc1999@gmail.com</a>
+                        </li>
+                    </ul>
+
+                    <div class="about__bottom">
+                        <a href="https://drive.google.com/file/d/1cdUjPHlmzveXNOOtApikcIPPhrqX7SV6/view?usp=sharing"
+                            target="_blank" class="btn">Download CV</a>
+
+                        <div class="about__social-links">
+                            
+                            <a href="https://www.linkedin.com/in/sahdev-chauhan-420860154/" target="_blank"
+                                class="about__social-link">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title title-center" data-title="Services">
+                What we do for you
+            </h2>
+
+            <div class="services__container container grid">
+                <div class="services__item">
+                    <i class="fa  fa-pen-to-square services__icon"></i>
+
+                    <h3 class="services__title">Web Development</h3>
+                    <p class="services__description">
+                        
+                        We specialize in Full stack development With expertise in technologies like .Net,
+                        API, and databases such as MS SQL Server, SQL Server, and MySQL.
+
+                        Skilled to develop beautiful, responsive websites. We'll make your concept
+                        a reality on the web with a dedication on user satisfaction and current
+                        design principles.
+                    </p>
+
+                    <span class="services__no">01</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa fa-pen-to-square services__icon"></i>
+
+                    <h3 class="services__title">Sophify E-Commerce Website</h3>
+                    <p class="services__description">
+                        we specialize in E-Commerce Website development With expertise in Shopify store management, Liquid base them and Figma.
+                    </p>
+
+                    <span class="services__no">02</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa fa-pen-to-square services__icon"></i>
+
+                    <h3 class="services__title">Fullter and Android APP development</h3>
+                    <p class="services__description">
+                        We specialize in App development With expertise in technologies like Android,
+                        kotlin, flutter , UI/UX , Photoshop, Illustrator, Figma, JAVA, Android Studio, Rest API, JSON,
+                        Expertise Using AI Tools.
+                    </p>
+
+                    <span class="services__no">03</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa fa-pen-to-square services__icon"></i>
+
+                    <h3 class="services__title">Laravel Development</h3>
+                    <p class="services__description">
+                        We specialize in laravel development With expertise in technologies like PHP,
+                        API, and databases such as PostgreSQL, MongoDB, and MySQL.
+                    </p>
+
+                    <span class="services__no">01</span>
+                </div>
+
+        
+
+                <div class="services__item">
+                    <i class="fa fa-laptop services__icon"></i>
+
+                    <h3 class="services__title">Web & API Expert</h3>
+                    <p class="services__description">
+                        We are specialize in API development to secure your website.
+                    </p>
+
+                    <span class="services__no">03</span>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section">
+            <h2 class="section__title title-center" data-title="Our Talent">
+                Skills
+            </h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Front-End Technologies</h3>
+                        <span class="skills__no">01</span>
+                    </div>
+
+                    <p class="skills__description">
+                     
+                   
+                    <br>
+                    - Angular 2+  
+                    <br>
+                    - TypeScript  
+                    <br>
+                    - HTML/HTML5  
+                    <br>
+                    - CSS/CSS3  
+                    <br>
+                    - JavaScript  
+                    <br>
+                    - jQuery  
+                    <br>
+                    - Protractor (for Angular testing)  
+                    <br>
+                    - React JS  
+                    <br>
+                    - Next.js  
+                    <br>
+                    - Shopify  
+                    <br>
+                    - NightmareJS (browser automation)  
+                    <br>
+                    - JSON  
+                    <br>
+                    - Bootstrap  
+                    <br><br>
+                    </p>
+
+                    <div class="sills__bar">
+                        <div class="skills__percentage" style="width: 100%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Backend Languages/Technologies</h3>
+                        <span class="skills__no">02</span>
+                    </div>
+
+                    <p class="skills__description">
+                      
+                    - ASP.NET (C#)  
+                    <br>
+                    - .NET Core  
+                    <br>
+                    - nopCommerce Framework  
+                    <br>
+                    - Entity Framework  
+                    <br>
+                    - Repository Pattern  
+                    <br>
+                    - Design Patterns  
+                    <br>
+                    - SOLID Principles  
+                    <br>
+                    - AWS Server Hosting and Setup  
+                    <br>
+                    - Azure Services  
+                    <br>
+                    - Web API  
+                    <br>
+                    - Node.js  
+                    <br>
+                    - PHP  
+                    <br>
+                    - WordPress  
+                    <br>
+                    - Apache  
+                    <br>
+                    - Nginx  
+                    <br>
+                    - LiteSpeed  
+                    <br>
+                    - Digital Ocean  
+                    <br>
+                    - Google Cloud  
+                    <br>
+                    - Facebook Graph API  
+                    <br>
+                    - Google Analytics API  
+                    <br>
+                    - Express.js  
+                    <br>
+                    - NestJS  
+                    <br>
+                    - Flutter  
+                    <br>
+                    - Android  
+                    <br><br>
+                    </p>
+
+                    <div class="sills__bar">
+                        <div class="skills__percentage" style="width: 100%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Database Technologies</h3>
+                        <span class="skills__no">03</span>
+                    </div>
+
+                    <p class="skills__description">
+                       
+                    <br>
+                    - MS SQL Server (2012, 2014)  
+                    <br>
+                    - PostgreSQL  
+                    <br>
+                    - MySQL  
+                    <br>
+                    - MongoDB  
+                    <br>
+                    - Firebase  
+                    <br><br>
+                    </p>
+
+                    <div class="sills__bar">
+                        <div class="skills__percentage" style="width: 100%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Reporting/Integration Tools</h3>
+                        <span class="skills__no">04</span>
+                    </div>
+
+                    <p class="skills__description">
+                        <br>
+                        - Postman
+                        <br>
+                        -  VS Code  
+                        <br>
+                        - Ubantu  
+                        <br>
+                        - Power BI Reporting Tool
+                        <br>
+                        - Amazon Alexa Integration  
+                        <br>
+                    </p>
+
+                    <div class="sills__bar">
+                        <div class="skills__percentage" style="width: 100%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Version Control</h3>
+                        <span class="skills__no">05</span>
+                    </div>
+
+                    <p class="skills__description">
+                        <br>
+                        - GIT
+                        <br>
+                        -  SVN
+                        <br>
+                      
+                    </p>
+
+                    <div class="sills__bar">
+                        <div class="skills__percentage" style="width: 100%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Project Management Tools</h3>
+                        <span class="skills__no">06</span>
+                    </div>
+
+                    <p class="skills__description">
+                        <br>
+                        - JIRA
+                        <br>
+                        -  Kanban  
+                       
+                    </p>
+
+                    <div class="sills__bar">
+                        <div class="skills__percentage" style="width: 100%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Third-Party Integrations</h3>
+                        <span class="skills__no">07</span>
+                    </div>
+
+                    <p class="skills__description">
+                        <br>
+                        - SM (Social Media)
+                        <br>
+                        - Payment Gateway 
+                        <br>
+                        - SMTP  
+                        <br>
+                        
+                    </p>
+
+                    <div class="sills__bar">
+                        <div class="skills__percentage" style="width: 100%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">ETL Tools</h3>
+                        <span class="skills__no">08</span>
+                    </div>
+
+                    <p class="skills__description">
+                        <br>
+                        - SSIS
+                        <br>
+                        -  BODS  
+                       
+                    </p>
+
+                    <div class="sills__bar">
+                        <div class="skills__percentage" style="width: 100%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Reporting Tools</h3>
+                        <span class="skills__no">09</span>
+                    </div>
+
+                    <p class="skills__description">
+                        <br>
+                        - SSRS
+                        <br>
+                        - RDLC 
+                        <br>
+                        - Crystal Reports  
+                        
+                    </p>
+
+                    <div class="sills__bar">
+                        <div class="skills__percentage" style="width: 100%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Automation Tools</h3>
+                        <span class="skills__no">10</span>
+                    </div>
+
+                    <p class="skills__description">
+                        <br>
+                        - Excel Plugin (Excel Add-in)
+                        <br>
+                        - Selenium Framework 
+                        
+                    </p>
+
+                    <div class="sills__bar">
+                        <div class="skills__percentage" style="width: 100%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Soft Skills</h3>
+                        <span class="skills__no">11</span>
+                    </div>
+
+                    <p class="skills__description">
+                        Problem-Solving, Time Management, Ability
+                        to work in a team
+                    </p>
+
+                    <div class="sills__bar">
+                        <div class="skills__percentage" style="width: 100%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="works section" id="works">
+            <h2 class="section__title title-center" data-title="Our Portfolio">
+                Recent Work
+            </h2>
+
+            <div class="work__container container grid">
+                <div class="work__card">
+                    <img src="./1.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./2.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./3.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./4.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./5.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./6.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./7.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./8.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./9.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./10.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./11.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./12.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./13.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./14.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./15.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="./16.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                
+                <div class="work__card">
+                    <img src="./17.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./18.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./19.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./20.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="./21.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title"></h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!--==================== TESTIMONIALS ====================-->
+        <section class="testimonials"></section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title title-center" data-title="Get in touch">
+                Contact Me
+            </h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__details">
+                    <div class="contact__item">
+                        <i class="fa fa-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__data">+7984276556</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="fa fa-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email Me</h3>
+                            <span class="contact__data">Sahdevnc1999@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="fa fa-map-marker contact__icon" aria-hidden="true"></i>
+                        
+                        <div>
+                            <h3 class="contact__title">Address</h3>
+                            <span class="contact__data">Surat, Gujarat, India</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
+                    <input type="hidden" name="access_key" value="34fe9b68-ffb7-477e-bc8a-4eec05c428ce">
+                    <div class="form__group">
+                        <div class="form__input">
+                            <input type="text" placeholder="Name" name="username" class="input__control" required
+                                autocomplete="off" />
+                        </div>
+
+                        <div class="form__input">
+                            <input type="email" placeholder="Email" name="email" class="input__control" required
+                                autocomplete="off" />
+                        </div>
+                    </div>
+
+                    <div class="form__input">
+                        <input type="text" placeholder="Subject" name="subject" class="input__control" required
+                            autocomplete="off" />
+                    </div>
+
+                    <div class="form__input">
+                        <textarea name="Message" id="Message" placeholder="Message" cols="30" rows="10"
+                            class="input__control textarea" minlength="5"></textarea>
+                    </div>
+
+                    <button class="btn contact__btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__copyright">
+                &copy; 2024 Sahdev Chauhan. All Rights Reserved
+            </p>
+
+            <div class="footer__social-links">
+                <!-- <a href="#" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a> -->
+
+                <a href="https://www.linkedin.com/in/sahdev-chauhan-420860154/" target="_blank" class="footer__social-link">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
