@@ -190,6 +190,7 @@
 
   #day-night:checked ~ * .fa-moon {
     display: block;
+    
   }
 
   .style__switcher-title {
